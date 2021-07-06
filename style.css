@@ -22,9 +22,8 @@ h1 {
   color: #828282;
 }
 
-
-.half-width{
-  width:40%;
+.half-width {
+  width: 40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
@@ -57,20 +56,22 @@ h1 span {
   background-repeat: no-repeat;
   background-position: left;
 }
-}
 
 #about-me-h1 {
   font-size: 35px;
-  margin: 10px auto;
+  margin-left: 15px;
 }
-
-
 
 #about-img {
   width: 45%;
 }
 #about-me-text {
-  padding-top: 15 0px;
+  margin-top: 25%;
+  margin-right: 25%;
+}
+
+#about-me-p {
+  margin: auto;
 }
 
 .recipie-text {
@@ -82,8 +83,7 @@ h1 span {
   text-align: center;
 }
 
-
-.recipie-text p{
+.recipie-text p {
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 2%;
@@ -99,7 +99,7 @@ h1 span {
 .recipie-tiles {
   border: 15px;
   border-style: solid;
-  border-color:white;
+  border-color: white;
   border-radius: 50px;
   padding: 10px;
   width: 35%;
@@ -111,12 +111,12 @@ h1 span {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .recipie-tiles img {
-width: 100%;
+  width: 100%;
 }
-.recipie-tiles p{
+.recipie-tiles p {
   width: 60%;
-  margin-right:auto;
-  }
+  margin-right: auto;
+}
 
 #social-stats {
   width: 70%;
@@ -148,8 +148,6 @@ footer {
   background-color: #fba24f;
   height: auto;
 }
-
-
 
 footer ul {
   text-align: center;
