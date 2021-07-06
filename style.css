@@ -67,7 +67,7 @@ h1 span {
 
 
 #about-img {
-  width: 50%;
+  width: 45%;
 }
 #about-me-text {
   padding-top: 15 0px;
@@ -131,9 +131,13 @@ width: 100%;
 }
 
 .stats {
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
   margin-right: auto;
   align-content:flex-start;
+}
+
+.stats h1 {
+  margin-bottom: 5%;
 }
