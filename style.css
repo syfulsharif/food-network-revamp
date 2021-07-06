@@ -1,21 +1,16 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: "Montserrat", sans-serif;
-  background: #f7f5f0;
+}
+section {
+  display: flex;
+  height: 500px;
+  padding-right: 10%;
+  margin-bottom: 150px;
 }
 h1 {
   font-size: 50px;
   color: #575757;
-}
-
-.top-banner {
-  height: 800px;
-  padding-top: 100px;
-  padding-bottom: 150px;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: 50px;
 }
 
 .hero-text {
@@ -27,28 +22,27 @@ h1 {
   color: #828282;
 }
 
-.half-width {
-  width: 40%;
+
+.half-width{
+  width:40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
 }
-
 .half-width p {
-  margin: 5px;
+  margin: 5px 15px;
   border-bottom: 10px;
+  font-size: 15px;
+  padding-right: 20%;
 }
 
 .half-width img {
-  width: 90%;
+  width: 80%;
 }
 h1 span {
   color: #fba24f;
 }
 
-#banner-left-content {
-  width: 80%;
-}
 .anchor-btn {
   text-decoration: none;
   background: linear-gradient(45deg, #fba24f, #ff1e1e);
@@ -59,25 +53,87 @@ h1 span {
 }
 
 .about-me-area {
-  width: 1440px;
-  height: 600px;
   background-image: url("images/about-bg.png");
   background-repeat: no-repeat;
-  background-position: right;
-  position: relative;
+  background-position: left;
+}
 }
 
 #about-me-h1 {
-  font-size: 30px;
+  font-size: 35px;
   margin: 10px auto;
 }
 
-#about-me-p {
-  margin: 5px;
-  border-bottom: 10px;
-}
+
 
 #about-img {
-  height: 90%;
-  width: 90;
+  width: 50%;
+}
+#about-me-text {
+  padding-top: 15 0px;
+}
+
+.recipie-text {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recipie-text h1 {
+  text-align: center;
+}
+
+
+.recipie-text p{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#recipie-list {
+  display: flex;
+  margin: 2px;
+  padding: 5%;
+}
+
+.recipie-tiles {
+  border: 15px;
+  border-style: solid;
+  border-color:white;
+  border-radius: 50px;
+  padding: 10px;
+  width: 35%;
+  height: 130%;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.recipie-tiles img {
+width: 100%;
+}
+.recipie-tiles p{
+  width: 60%;
+  margin-right:auto;
+  }
+
+#social-stats {
+  width: 70%;
+  display: flex;
+  height: 200px;
+  align-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.stats {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  align-content:flex-start;
 }
