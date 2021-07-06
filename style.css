@@ -1,14 +1,13 @@
-* {
-  box-sizing: border-box;
-}
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  color: #575757;
   background: #f7f5f0;
 }
-
+h1 {
+  font-size: 50px;
+  color: #575757;
+}
 .main-nav {
   width: 100%;
   min-height: 30px;
