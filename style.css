@@ -14,7 +14,7 @@ body {
   min-height: 30px;
   margin-bottom: 25px;
   padding: 10px;
-  position: fixed;
+  position: absolute;
   text-align: center;
   color: #fba24f;
 }
@@ -43,6 +43,9 @@ body {
   height: 800px;
   padding-top: 100px;
   padding-bottom: 150px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
 }
 
 .hero-text {
@@ -79,4 +82,28 @@ h1 span {
   border-radius: 25px;
   color: white;
   font-weight: 600;
+}
+
+.about-me-area {
+  width: 1440px;
+  height: 600px;
+  background-image: url("images/about-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+
+#about-me-h1 {
+  font-size: 30px;
+  margin: 10px auto;
+}
+
+#about-me-p {
+  margin: 5px;
+  border-bottom: 10px;
+}
+
+#about-img {
+  height: 90%;
+  width: 90;
 }
